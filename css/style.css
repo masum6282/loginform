@@ -1,0 +1,93 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.login-form{
+    width: 600px;
+    margin: 50px auto;
+    background-color: #eee;
+    padding: 40px;
+}
+
+.avater{
+    width: 100%;
+    text-align: center;
+}
+
+.avater h1{
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: uppercase ;
+    
+    }
+
+
+.avater img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.form-group{
+    width:100%;
+    margin: 0px 0px 20px;
+}
+.form-group label{
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px 0px 5px;
+
+}
+.form-group .form-controll{
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #000;
+    background: transparent;
+}
+.form-group .btn-info{
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background: #000;
+    border: 1px solid #000;
+    color: #eee;
+    
+}
+.form-group .btn-info:hover{
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+
+}
